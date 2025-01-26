@@ -1,0 +1,146 @@
+*{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+.example-card {
+    max-width: 400px;
+    max-height: 700px;
+    min-height: 700px;
+    min-width: 400px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.18) !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37) !important;
+    margin: 10px 10px 10px 10px;
+}
+.place-holder{
+    height: 90px;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+  .card-image{
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+    max-height: 550px;
+  }
+  .card-image:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+  }
+  .card-description{
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .card-container {
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1800px;
+    margin: 0 auto;
+  }
+
+  .example-card {
+    flex: 1 1 300px;
+    max-width: calc(25% - 20px);
+  }
+ .card-button{
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.274) !important;
+    margin-left: 12px;
+}.card-button:hover{
+    background-color: #ffffff !important;
+    color: black !important;
+    transition: all 0.3s ease;
+}
+.action-buttons{
+    margin-top: 20px;
+    
+    
+}
+.featured{
+  width: 93.5%;
+  height: 500px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+
+}
+.featured-image{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ border-radius: 10px;
+ overflow: hidden;
+}
+.featured-text{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+color: green !important;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+background-color: #1E1D2F;
+border: 1px solid #45D462 !important;
+width: 330px;
+height: 130px;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.featured-text:hover{
+ cursor: pointer;
+ background-color: rgb(85, 206, 4) !important;
+ transition: all 0.3s ease;
+ border: 1px solid #1E1D2F !important;
+
+}
+
+.featured-text h1{
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(85, 206, 4) !important;
+}
+.featured-text p{
+  margin-top: -30px;
+  font-size: 20px;
+  color: rgb(85, 206, 4) !important;
+}
+.featured-text:hover p,
+.featured-text:hover h1{
+  color: #1E1D2F !important;
+  transition: all 0.3s ease;
+}
+
+.input-field{
+  color: rgb(255, 255, 255) !important;
+  width: 350px;
+  margin-left: -12px;
+
+}
+.example-form-field{
+  width: 100%;
+  
+}
+input{
+  background-color: #1E1D2F !important;
+  border: 1px solid #ffffff !important;
+  border-radius: 7px !important;
+  height: 40px !important;
+}

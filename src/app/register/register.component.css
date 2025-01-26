@@ -1,0 +1,42 @@
+.place-holder {
+    height: 100px;
+   
+}
+.signup-form {
+    backdrop-filter: blur(10px);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.18) !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37) !important;
+    padding: 20px;
+    width: 300px; 
+    margin: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.place-holder {
+    height: 100px;
+}
+.signup-button {
+    height: 50px;
+    width: 22   0px;
+    border-radius: 10px;
+    background-color: #007bff00;
+    border: 1px solid #ffffffa2;
+    color: #ffffffa2;
+}
+.signup-button:hover {
+    background-color: #000000;
+    border: 1px solid #ffffffa2;
+    color: #ffffffa2;
+    transition: 0.3s;
+    margin:0;
+    align-items: center;
+}
+
+h1 {
+    color: #ffffff;
+}

@@ -1,0 +1,25 @@
+<div class="place-holder"></div>
+<div class="cart-container">
+
+    <div *ngIf="cart.length > 0; else emptyCart">
+        <h1>Your Cart</h1>
+        <div *ngFor="let item of cart">
+          <h2>{{ item.Movie.name }}</h2>
+          <p>Description: {{ item.Movie.description }}</p>
+          <p>Duration: {{ item.Movie.duration }} minutes</p>
+          <p>Genre: {{ item.Movie.genre }}</p>
+          <p>Actors: {{ item.Movie.actors.join(', ') }}</p>
+          <p>Producer: {{ item.Movie.producer }}</p>
+          <p>Projection Time: {{ item.startingAt | date: 'short' }}</p>
+          <p>Price: {{ item.price }} RSD</p>
+          <hr />
+        </div>
+        <button class="payment-button" mat-button>Go to Payment Page</button> 
+      </div>
+      <ng-template class="emptyCart" #emptyCart>
+        <p>Your cart is empty!</p>
+        <img class="empty-cart-image" src="https://m.media-amazon.com/images/G/01/cart/empty/kettle-desaturated._CB445243794_.svg" alt="Empty Cart">
+      </ng-template>
+      
+
+</div>
